@@ -1,0 +1,156 @@
+body {
+    color:  #40514e;
+    margin: 0;
+    text-align: center; 
+    font-family: 'Merriweather', serif;
+    font-size: 1.25em;    
+}
+ 
+span {
+    text-decoration: underline;
+}
+h1{
+    margin: 100px auto 0 auto ;
+    font-family: 'Sacramento', cursive;
+    /* font-size: 562.5%; same as the following */
+    font-size: 5.625rem;
+    color: #66BFBF;
+} 
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    padding-bottom: 10px;
+
+}
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+    font-weight: normal;
+
+}
+
+.profile {
+    padding-top: 30px;
+}
+
+.top-container {
+    background-color: #e8ffff;
+    position: relative;
+    padding-top: 50px;
+}
+
+.middle-container {
+    margin: 100px auto;
+}
+
+.bottom-container {
+    background-color: #0f3057;
+    padding: 10px 0 5px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 250px;
+    bottom: 250px;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
+
+a:hover {
+    color: #EAF6F6;
+}
+
+
+hr { 
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 10px;
+    border-color: #66BFBF;
+    width: 5%; 
+}
+
+.footer-link {
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color:  #66BFBF;
+}
+
+.title {
+    color: #66BFBF;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+   
+}
+
+.HTML {
+    width: 97px;
+    float: left;
+    margin-right: 30px;
+}
+
+.CSS {
+    width: 150px;
+    float: right;
+    margin-left: 30px;
+}
+
+.JS {
+    width: 110px;
+    float: left;
+    margin-right: 30px;
+}
+
+.location {
+    width: 120px;
+}
+
+
+.bio {
+ width: 30%;
+ margin: auto;
+}
+
+p {
+    line-height: 2;
+}
+
+.contactme {
+width: 30%;
+ margin: 40px auto 20px auto;
+}
+
+.btn {
+    margin: 0;
+    text-decoration: none;
+    border-radius: 5px;
+     width: 10%;
+     display: inline-block;
+     color: seashell;
+     background: linear-gradient( #18545c9f, #7de2e2);
+     padding: 10px 0 10px 0;
+     
+}
+
+.btn:hover {
+    background: linear-gradient( #7de2e2 , #18545c9f);
+}
+
+.copywrite {
+
+    color: #EAF6F6;
+    font-size: 1rem;
+    padding: 20px 0 10px 0;
+}
